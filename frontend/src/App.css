@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .report-section {
+    margin-left: 0;
+  }
+}
